@@ -1,0 +1,188 @@
+[
+  {
+    "id":1,
+    "title":"featch data from api",
+    "thumbinal":"https://i.ytimg.com/vi/a1v3WYM_ZCE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQxl9j9V4yiL3JQ4AAKBZpRMUHiw",
+    "videoUrl":"https://static.pexels.com/lib/videos/free-videos.mp4",
+    "description":"how to featch data from api using featch methid in javascript",
+    "likes":345,
+    "views":23432372676,
+    "uploadBy":"CodeWithMahdi",
+    "channelName":"CodeWithMahdi",
+    "channelLogo":"https://yt3.googleusercontent.com/Ub8wDdhEHV3bjCLNG8zosz2EXk5Fatw-n5D8wjcn0hKV8s6_OcyjozpxyrseQouEFClafMjQ7g=s900-c-k-c0x00ffffff-no-rj",
+    "comments":[
+      {
+        "user":"akash",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      },
+      {
+        "user":"mohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"mobeen",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohal",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }
+    ]
+  },
+  {
+    "id":2,
+    "title":"featch data from api",
+    "thumbinal":"https://i.ytimg.com/vi/a1v3WYM_ZCE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQxl9j9V4yiL3JQ4AAKBZpRMUHiw",
+    "videoUrl":"https://static.pexels.com/lib/videos/free-videos.mp4",
+    "description":"how to featch data from api using featch methid in javascript",
+    "likes":345,
+    "views":23432,
+    "uploadBy":"CodeWithMahdi",
+    "channelName":"CodeWithMahdi",
+    "channelLogo":"https://yt3.googleusercontent.com/Ub8wDdhEHV3bjCLNG8zosz2EXk5Fatw-n5D8wjcn0hKV8s6_OcyjozpxyrseQouEFClafMjQ7g=s900-c-k-c0x00ffffff-no-rj",
+    "comments":[
+      {
+        "user":"akash",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      },
+      {
+        "user":"mohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"mobeen",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohal",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }
+    ]
+  },
+  {
+    "id":3,
+    "title":"featch data from api",
+    "thumbinal":"https://i.ytimg.com/vi/a1v3WYM_ZCE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQxl9j9V4yiL3JQ4AAKBZpRMUHiw",
+    "videoUrl":"https://static.pexels.com/lib/videos/free-videos.mp4",
+    "description":"how to featch data from api using featch methid in javascript",
+    "likes":345,
+    "views":23432,
+    "uploadBy":"CodeWithMahdi",
+    "channelName":"CodeWithMahdi",
+    "channelLogo":"https://yt3.googleusercontent.com/Ub8wDdhEHV3bjCLNG8zosz2EXk5Fatw-n5D8wjcn0hKV8s6_OcyjozpxyrseQouEFClafMjQ7g=s900-c-k-c0x00ffffff-no-rj",
+    "comments":[
+      {
+        "user":"akash",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      },
+      {
+        "user":"mohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"mobeen",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohal",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }
+    ]
+  },
+  {
+    "id":4,
+    "title":"featch data from api",
+    "thumbinal":"https://i.ytimg.com/vi/a1v3WYM_ZCE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQxl9j9V4yiL3JQ4AAKBZpRMUHiw",
+    "videoUrl":"https://static.pexels.com/lib/videos/free-videos.mp4",
+    "description":"how to featch data from api using featch methid in javascript",
+    "likes":345,
+    "views":23432,
+    "uploadBy":"CodeWithMahdi",
+    "channelName":"CodeWithMahdi",
+    "channelLogo":"https://yt3.googleusercontent.com/Ub8wDdhEHV3bjCLNG8zosz2EXk5Fatw-n5D8wjcn0hKV8s6_OcyjozpxyrseQouEFClafMjQ7g=s900-c-k-c0x00ffffff-no-rj",
+    "comments":[
+      {
+        "user":"akash",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      },
+      {
+        "user":"mohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"mobeen",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohal",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }
+    ]
+  },
+  {
+    "id":5,
+    "title":"featch data from api",
+    "thumbinal":"https://i.ytimg.com/vi/a1v3WYM_ZCE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQxl9j9V4yiL3JQ4AAKBZpRMUHiw",
+    "videoUrl":"https://static.pexels.com/lib/videos/free-videos.mp4",
+    "description":"how to featch data from api using featch methid in javascript",
+    "likes":345,
+    "views":23432,
+    "uploadBy":"CodeWithMahdi",
+    "channelName":"CodeWithMahdi",
+    "channelLogo":"https://yt3.googleusercontent.com/Ub8wDdhEHV3bjCLNG8zosz2EXk5Fatw-n5D8wjcn0hKV8s6_OcyjozpxyrseQouEFClafMjQ7g=s900-c-k-c0x00ffffff-no-rj",
+    "comments":[
+      {
+        "user":"akash",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      },
+      {
+        "user":"mohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"mobeen",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohal",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }
+    ]
+  },
+  {
+    "id":6,
+    "title":"featch data from api",
+    "thumbinal":"https://i.ytimg.com/vi/a1v3WYM_ZCE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQxl9j9V4yiL3JQ4AAKBZpRMUHiw",
+    "videoUrl":"https://static.pexels.com/lib/videos/free-videos.mp4",
+    "description":"how to featch data from api using featch methid in javascript",
+    "likes":345,
+    "views":23432,
+    "uploadBy":"CodeWithMahdi",
+    "channelName":"CodeWithMahdi",
+    "channelLogo":"https://yt3.googleusercontent.com/Ub8wDdhEHV3bjCLNG8zosz2EXk5Fatw-n5D8wjcn0hKV8s6_OcyjozpxyrseQouEFClafMjQ7g=s900-c-k-c0x00ffffff-no-rj",
+    "comments":[
+      {
+        "user":"akash",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      },
+      {
+        "user":"mohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohan",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"mobeen",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }, {
+        "user":"rohal",
+        "comment":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi magnam fugit? Ullam dicta optio facere aut aliquid, nihil praesentium et rem quisquam?"
+      }
+    ]
+  }
+]

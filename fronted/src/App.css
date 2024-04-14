@@ -1,0 +1,914 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.js-between {
+  justify-content: space-between;
+}
+
+.block {
+  display: block;
+}
+
+.LoginBtn {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #007bff;
+  outline: 2px solid #007bff;
+  border-radius: 30px;
+  width: 200px;
+  font-size: 19px;
+  margin-top: 10px;
+  transition: .3s;
+  text-decoration: none;
+  border: 0;
+}
+
+.LoginBtn:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.signUpBtn {
+  font-size: 19px;
+  border-radius: 30px;
+  transition: .3s;
+  outline: 2px solid #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  border: 0;
+}
+
+.signUpBtn:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.rightContent {
+  width: calc(100vw - 300px);
+  position: relative;
+  padding: 10px 20px;
+  min-height: calc(100vh - 100px);
+  /* border: 2px solid red; */
+  margin-left: 300px;
+  /* left: 300px; */
+}
+
+/* Scroll Bar Styles */
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+
+/* Header */
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  position: sticky;
+  top: 0;
+  background-color: #f8f5f5;
+  z-index: 22;
+}
+
+header .logo img {
+  width: 90px;
+  cursor: pointer;
+}
+
+header .center {
+  display: flex;
+  align-items: center;
+}
+
+header .center .inputBox {
+  display: flex;
+  align-items: center;
+  width: 440px;
+  outline: 1px solid #ddd;
+  height: 40px;
+  margin-right: 10px;
+  padding: 0px 10px;
+  border-radius: 30px;
+}
+
+header .center .inputBox input {
+  flex: 1;
+  background-color: transparent;
+  font-size: 16px;
+  outline: 0;
+  border: 0;
+}
+
+header .center .inputBox .ic {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+  color: #000;
+}
+
+header .center i {
+  font-size: 20px;
+  color: #000;
+  padding: 10px;
+  background-color: #f8f5f5;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+header .icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .icons i {
+  font-size: 25px;
+  color: #000;
+  cursor: pointer;
+}
+
+header .icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.videoBtnDropdown {
+  position: absolute;
+  right: 1%;
+  top: 80px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  visibility: hidden;
+}
+
+.videoBtnDropdown a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 17px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.videoBtnDropdown.active {
+  visibility: visible;
+}
+
+.videoBtnDropdown a:hover {
+  background-color: #ddd;
+}
+
+.videoBtnDropdown a i {
+  margin-right: 5px;
+}
+
+/* side bar */
+
+.sideBar {
+  width: 300px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+  position: fixed;
+  top: 100px;
+  background-color: #f8f5f5;
+}
+
+.sideBar .sideBarLink {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sideBar .sideBarLink:hover {
+  background-color: #dadada;
+}
+
+.sideBar i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+
+/* videosContainer */
+.videosContainer {
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  min-height: 100vh;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.videosContainer .video {
+  width: 100%;
+  height: 50vh;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.videosContainer .video img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.videosContainer .video h3 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+
+.videosContainer .video p {
+  margin-left: 60px;
+  margin-right: 10px;
+  margin-top: 0px;
+  line-height: 1;
+}
+
+.videosContainer .video .channelImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.videosContainer .video .flexContainer {
+  align-items: start;
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  padding: 0px;
+}
+
+.videosContainer .video .flexContainer p {
+  position: absolute;
+  left: -2%;
+  margin-top: 5px;
+}
+
+/* single video page */
+
+
+
+.videoContainer {
+  width: 65%;
+  padding: 10px 20px;
+  min-height: calc(100vh - 100px);
+  /* border: 2px solid red; */
+  padding-left: 40px;
+}
+
+.videoContainer video {
+  width: 100%;
+  height: 65vh;
+  /* border: 2px solid blue; */
+}
+
+.videoContainer h3 {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.videoContainer .flex {
+  margin-top: 5px;
+}
+
+.videoContainer .flex .flex .channelImg {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.videoContainer .flex .flex .block {
+  margin-left: 7px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  line-height: 1.1;
+  padding-bottom: 5px;
+  flex-direction: column;
+}
+
+.videoContainer .flex .flex .block h3 {
+  font-size: 19px;
+}
+
+.videoContainer .flex .flex .subscribeBtn {
+  padding: 10px 30px;
+  outline: 0;
+  background-color: red;
+  color: #fff;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.videoContainer .flex .flex .subscribeBtn:hover {
+  background-color: rgb(242, 21, 21);
+}
+
+/* target to likes or dislikes side buttons flex container  */
+.videoContainer .flex .flex:last-child {
+  gap: 10px;
+}
+
+.videoContainer .flex .flex .button {
+  display: flex;
+  align-items: center;
+  background-color: #ddd;
+  padding: 10px 10px;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+}
+
+.videoContainer .flex .flex .button i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.videoContainer .flex .flex .button:hover {
+  background-color: #d5d0d0;
+}
+
+.videoContainer .descriptionBox {
+  width: 100%;
+  height: 100px;
+  background-color: #ddd;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.videoContainer .descriptionBox.active {
+  height: auto;
+}
+
+
+.otherVideos {
+  width: calc(100vw - 65vw);
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  /* border: 2px solid red; */
+  overflow: hidden;
+}
+
+.otherVideos .videoCard {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  line-height: 1.3;
+  height: 100px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.otherVideos .videoCard:hover {
+  background-color: #ddd;
+}
+
+.otherVideos .videoCard img {
+  border-radius: 10px;
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.otherVideos .videoCard h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* search page */
+
+
+.searchedVideoCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 35vh;
+  cursor: pointer;
+  margin-bottom: 0px;
+  /* background-color: red; */
+  margin-top: 10px;
+  gap: 0px;
+  background-color: #f1f1f1;
+}
+
+.searchedVideoCard img {
+  width: 35%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.searchedVideoCard h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.searchResultsContainer {
+  padding: 10px 20px;
+  width: calc(100vw - 300px);
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+}
+
+.searchedVideoCard .flex {
+  margin-top: 20px;
+}
+
+.searchedVideoCard .flex .channelImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* sing up page loginpage */
+
+
+
+.parentDivSignUp,
+.parentDivLogin {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer,
+.signUpFormcontainer {
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginContainer .form-group,
+.signUpFormcontainer .form-group {
+  margin-bottom: 20px;
+}
+
+.loginContainer h2,
+.signUpFormcontainer h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.loginContainer .form-group input,
+.signUpFormcontainer .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loginContainer .form-group input:focus,
+.signUpFormcontainer .form-group input:focus {
+  outline: 2px solid #007bff;
+}
+
+.loginContainer .form-group input:hover,
+.signUpFormcontainer .form-group input:hover {
+  outline: 2px solid #007bff;
+}
+
+
+.loginContainer button,
+.signUpFormcontainer button,.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.loginContainer button,
+.signUpFormcontainer button:hover,.btn:hover {
+  background-color: #066ddc;
+}
+
+.loginContainer .error ,.error,
+.signUpFormcontainer .form-group .error {
+  color: red;
+  font-size: 16px;
+}
+
+.loginContainer .success,
+.signUpFormcontainer .success {
+  color: green;
+  font-size: 17px;
+}
+
+@media (max-width: 480px) {
+
+  .loginContainer,
+  .signUpFormcontainer {
+    width: 90%;
+  }
+}
+
+
+
+
+/* Uploa dvideo Page */
+
+.uploadVideoContainer {
+  width: 95%;
+  margin: auto;
+  min-height: calc(100vh - 100px);
+  padding: 10px 20px;
+}
+
+.uploadVideoContainer .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadVideoContainer .form input,
+.uploadVideoContainer .form textarea {
+  padding: 10px 10px;
+  outline: 2px solid #ddd;
+  border: 0;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.uploadVideoContainer .form input:hover,
+.uploadVideoContainer .form textarea:hover {
+  outline: 2px solid #007bff;
+}
+
+.uploadVideoContainer .form input:focus,
+.uploadVideoContainer .form textarea:focus {
+  outline: 2px solid #007bff;
+}
+
+
+.uploadVideoContainer .form textarea {
+  min-height: 30vh;
+  resize: vertical;
+}
+
+.uploadVideoContainer .form .uploadVideoBtn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  margin: 30px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.uploadVideoContainer .form .uploadVideoBtn:hover {
+  background-color: #066ddc;
+}
+
+/* profile page */
+
+.profileContainer .bannerDiv {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+}
+
+.profileContainer .bannerDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.profileContainer .flex .channelImage img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.profileContainer .block {
+  margin-left: 20px;
+}
+
+.profileContainer .block h1 {
+  font-size: 40px;
+}
+
+.profileContainer .block p:nth-child(1) {
+  margin-bottom: 10px;
+}
+.profileContainer .flex{
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.profileContainer .flex button {
+  padding: 10px;
+  min-width: 150px;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  background-color: #ece7e7;
+  font-size: 16px;
+}
+.profileContainer .flex button:hover{
+  background-color: #dadada;
+}
+
+
+.profileContainer>h3{
+  font-size: 26px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 50px;
+}
+
+.profileContainer .videos{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  min-height: 70vh;
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 20px;
+  gap: 10px;
+}
+
+
+.profileContainer .videos .video{
+  /* width: 100%; */
+  width: 290px;
+  height: 35vh;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 1;
+  /* background-color: red; */
+}
+.profileContainer .videos .video img{
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.profileContainer .videos .video h3{
+  font-size: 19px;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+
+/* custamizeChannel page */
+
+.custamizeChan{
+  width: 95%;
+  margin: auto;
+  min-height: calc(100vh - 100px);
+  padding: 10px 20px;
+}
+
+.custamizeChan .custamizeContentDash>h3{
+  font-size: 33px;
+}
+
+.custamizeSideBar{
+  width: 300px;
+  height: calc(100vh - 100px);
+  /* background-color: red; */
+  position: sticky;
+  padding: 10px 20px;
+  top: 100px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custamizeSideBar a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: #dadada;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.custamizeSideBar a i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.custamizeContentDash{
+  width: 100%;
+}
+
+.editChName{
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+}
+
+.editChName input{
+  padding: 10px;
+  margin-top: 5px;
+  border: 0;
+  outline: 1px solid #ccc;
+  border-radius: 5px;
+}
+.editChName input:hover,.editChName input:focus{
+  outline: 2px solid #007bff;
+}
+
+.editChName button{
+  margin-top: 10px;
+  outline: 0;
+  width: 180px;
+}
+
+
+.addBanner{
+  /* background-color: red; */
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+}
+
+.addBanner .bannerImgDiv{
+  width: 100%;
+  margin: auto;
+  height: 40vh;
+  outline: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-direction: column;
+  margin-top: 10px;
+  /* background-color: red; */
+}
+.addBanner .bannerImgDiv img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.addBanner .bannerImgDiv .addBannerIcon{
+  font-size: 100px;
+  cursor: pointer;
+  color: #000;
+}
+
+.addProfilePic{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+}
+
+.addProfilePic .profileImgDiv{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  outline: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.addProfilePic .profileImgDiv img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.addProfilePic .profileImgDiv .addProfileIcon{
+  font-size: 50px;
+  cursor: pointer;
+  color: #000;
+}
+
+
+/* manage Videos */
+
+.tableContainer{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  min-height: calc(100vh - 90px);
+  margin-top: 20px;
+  outline: 2px solid #ccc;
+}
+
+.tableContainer .tableHeader{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  padding: 10px;
+  font-weight: bold;
+  outline: 2px solid #ccc;
+}
